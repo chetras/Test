@@ -112,16 +112,17 @@ def send_email(subject, body, to_email, attachment=None):
         print(f"Email Sending Failed: {e}")
 
 # Call this function after scraping is done
-def notify_user(user_email, scrape_status, log_file=None):
+def notify_user(user_email, scrape_status, log_file=None, client_ip=None):
     if scrape_status == "success":
-        subject = "A User Has Completed Web Scraping Successfully!"
-        body = f"A user has successfully completed the web scraping process. The scraped data is available for download. Here are the details:\n\nUser Email: {user_email}\n\nYou can download the scraped data here: <download_link>"
+        subject = f"A User Has Completed Web Scraping Successfully! (IP: {client_ip})"  # Include IP in subject
+        body = f"A user with IP address {client_ip} has successfully completed the web scraping process. The scraped data is available for download."
         send_email(subject, body, user_email)  # No log file to send
     else:
-        subject = "Error in User's Web Scraping Process!"
-        body = f"An error occurred while a user was attempting to scrape data. Please check the attached log file for more information.\n\nUser Email: {user_email}"
+        subject = f"Error in User's Web Scraping Process! (IP: {client_ip})"  # Include IP in subject
+        body = f"An error occurred while a user with IP address {client_ip} was attempting to scrape data. Please check the attached log file for more information.\n\nUser Email: {user_email}"
         if log_file:
             send_email(subject, body, user_email, log_file)  # Send the log file if there's an error
         else:
             send_email(subject, body, user_email)  # Send email without the log file if not available
+
 

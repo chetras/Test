@@ -535,3 +535,113 @@
 2025-01-29 22:08:30,211 - INFO -  * Restarting with watchdog (windowsapi)
 2025-01-29 22:08:31,396 - WARNING -  * Debugger is active!
 2025-01-29 22:08:31,404 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:09:43,838 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 22:09:43,838 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 22:09:43,846 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 22:09:45,012 - WARNING -  * Debugger is active!
+2025-01-29 22:09:45,019 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:09:52,499 - INFO - 127.0.0.1 - - [29/Jan/2025 22:09:52] "GET / HTTP/1.1" 200 -
+2025-01-29 22:09:52,644 - INFO - 127.0.0.1 - - [29/Jan/2025 22:09:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-29 22:15:33,585 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 22:15:33,586 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 22:15:33,956 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 22:15:35,716 - WARNING -  * Debugger is active!
+2025-01-29 22:15:35,722 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:20:07,577 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.109:5000
+2025-01-29 22:20:07,577 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 22:20:07,586 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 22:20:08,707 - WARNING -  * Debugger is active!
+2025-01-29 22:20:08,714 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:20:30,710 - INFO - 192.168.1.109 - - [29/Jan/2025 22:20:30] "GET / HTTP/1.1" 200 -
+2025-01-29 22:20:30,826 - INFO - 192.168.1.109 - - [29/Jan/2025 22:20:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-29 22:21:16,217 - INFO - 192.168.1.107 - - [29/Jan/2025 22:21:16] "GET / HTTP/1.1" 200 -
+2025-01-29 22:21:17,122 - INFO - 192.168.1.107 - - [29/Jan/2025 22:21:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-29 22:23:31,124 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-29 22:23:31,140 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-29 22:23:31,150 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-29 22:23:34,209 - INFO - 192.168.1.107 - - [29/Jan/2025 22:23:34] "POST / HTTP/1.1" 200 -
+2025-01-29 22:24:42,873 - INFO - 192.168.1.100 - - [29/Jan/2025 22:24:42] "GET / HTTP/1.1" 200 -
+2025-01-29 22:24:42,973 - INFO - 192.168.1.100 - - [29/Jan/2025 22:24:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-29 22:33:28,129 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\re\\__init__.py', reloading
+2025-01-29 22:33:28,167 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\urllib\\parse.py', reloading
+2025-01-29 22:33:28,218 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\smtplib.py', reloading
+2025-01-29 22:33:28,239 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\email\\mime\\text.py', reloading
+2025-01-29 22:33:28,256 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\email\\mime\\multipart.py', reloading
+2025-01-29 22:33:28,260 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\email\\mime\\base.py', reloading
+2025-01-29 22:33:28,677 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+2025-01-29 22:33:28,678 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2025-01-29 22:33:28,681 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2025-01-29 22:33:28,700 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\numpy\\_utils\\__init__.py', reloading
+2025-01-29 22:33:28,702 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\numpy\\_typing\\_nbit.py', reloading
+2025-01-29 22:33:28,877 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 22:33:30,706 - WARNING -  * Debugger is active!
+2025-01-29 22:33:30,713 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:33:32,044 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 22:33:32,045 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 22:33:32,046 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 22:33:32,843 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 22:33:33,938 - WARNING -  * Debugger is active!
+2025-01-29 22:33:33,945 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:33:52,316 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 22:33:52,317 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 22:33:52,721 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 22:33:52,722 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 22:33:53,112 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 22:33:54,272 - WARNING -  * Debugger is active!
+2025-01-29 22:33:54,279 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:34:11,772 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 22:34:11,774 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 22:34:12,452 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 22:34:13,454 - WARNING -  * Debugger is active!
+2025-01-29 22:34:13,461 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:34:17,387 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-01-29 22:34:17,389 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-01-29 22:34:17,409 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-01-29 22:34:17,615 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 22:34:18,634 - WARNING -  * Debugger is active!
+2025-01-29 22:34:18,644 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:34:35,763 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.109:5000
+2025-01-29 22:34:35,763 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 22:34:35,774 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 22:34:37,508 - WARNING -  * Debugger is active!
+2025-01-29 22:34:37,515 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:34:50,753 - INFO - 192.168.1.109 - - [29/Jan/2025 22:34:50] "GET / HTTP/1.1" 200 -
+2025-01-29 22:34:58,400 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-29 22:34:58,417 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-29 22:34:58,427 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-29 22:35:02,036 - INFO - 192.168.1.109 - - [29/Jan/2025 22:35:02] "POST / HTTP/1.1" 200 -
+2025-01-29 22:35:36,755 - INFO - 192.168.1.107 - - [29/Jan/2025 22:35:36] "GET /download/List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv HTTP/1.1" 200 -
+2025-01-29 22:36:15,199 - WARNING - Skipping Table 1: No data rows
+2025-01-29 22:36:15,200 - WARNING - Skipping Table 2: No data rows
+2025-01-29 22:36:15,207 - INFO - Table 3 (External_links) saved to List_of_largest_companies_by_revenue_External_links.csv
+2025-01-29 22:36:15,221 - INFO - Table 4 (External_links) saved to List_of_largest_companies_by_revenue_External_links.csv
+2025-01-29 22:36:15,223 - WARNING - Skipping Table 5: No data rows
+2025-01-29 22:36:15,235 - INFO - Table 6 (External_links) saved to List_of_largest_companies_by_revenue_External_links.csv
+2025-01-29 22:36:18,049 - INFO - 192.168.1.107 - - [29/Jan/2025 22:36:18] "POST / HTTP/1.1" 200 -
+2025-01-29 22:36:49,256 - WARNING - Skipping Table 1: No data rows
+2025-01-29 22:36:49,258 - WARNING - Skipping Table 2: No data rows
+2025-01-29 22:36:49,259 - WARNING - Skipping Table 3: No data rows
+2025-01-29 22:36:52,163 - INFO - 192.168.1.107 - - [29/Jan/2025 22:36:52] "POST / HTTP/1.1" 200 -
+2025-01-29 22:37:04,602 - WARNING - Skipping Table 1: No data rows
+2025-01-29 22:37:04,604 - WARNING - Skipping Table 2: No data rows
+2025-01-29 22:37:04,605 - WARNING - Skipping Table 3: No data rows
+2025-01-29 22:37:07,454 - INFO - 192.168.1.107 - - [29/Jan/2025 22:37:07] "POST / HTTP/1.1" 200 -
+2025-01-29 22:37:22,818 - INFO - Table 1 (2022) saved to List_of_largest_manufacturing_companies_by_revenue_2022.csv
+2025-01-29 22:37:22,881 - INFO - Table 2 (2020) saved to List_of_largest_manufacturing_companies_by_revenue_2020.csv
+2025-01-29 22:37:22,896 - INFO - Table 3 (References) saved to List_of_largest_manufacturing_companies_by_revenue_References.csv
+2025-01-29 22:37:22,904 - INFO - Table 4 (References) saved to List_of_largest_manufacturing_companies_by_revenue_References.csv
+2025-01-29 22:37:22,906 - WARNING - Skipping Table 5: No data rows
+2025-01-29 22:37:22,912 - INFO - Table 6 (References) saved to List_of_largest_manufacturing_companies_by_revenue_References.csv
+2025-01-29 22:37:25,702 - INFO - 192.168.1.107 - - [29/Jan/2025 22:37:25] "POST / HTTP/1.1" 200 -
+2025-01-29 22:40:03,353 - INFO - Table 1 (Largest_firms) saved to List_of_companies_of_Thailand_Largest_firms.csv
+2025-01-29 22:40:03,446 - INFO - Table 2 (Notable_firms) saved to List_of_companies_of_Thailand_Notable_firms.csv
+2025-01-29 22:40:06,302 - INFO - 192.168.1.100 - - [29/Jan/2025 22:40:06] "POST / HTTP/1.1" 200 -
+2025-01-29 22:42:53,543 - ERROR - Scraping failed: No tables found on https://mydramalist.com/search?q=Agents+of+Mystery
+2025-01-29 22:42:57,000 - INFO - 192.168.1.109 - - [29/Jan/2025 22:42:57] "POST / HTTP/1.1" 200 -
