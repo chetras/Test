@@ -521,3 +521,17 @@
 2025-01-29 21:54:56,041 - INFO -  * Restarting with watchdog (windowsapi)
 2025-01-29 21:54:57,087 - WARNING -  * Debugger is active!
 2025-01-29 21:54:57,095 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:08:17,769 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 22:08:17,770 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 22:08:17,780 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 22:08:19,021 - WARNING -  * Debugger is active!
+2025-01-29 22:08:19,032 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 22:08:29,493 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2025-01-29 22:08:29,497 - INFO - 127.0.0.1 - - [29/Jan/2025 22:08:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 22:08:29,638 - INFO - 127.0.0.1 - - [29/Jan/2025 22:08:29] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-29 22:08:29,641 - INFO - 127.0.0.1 - - [29/Jan/2025 22:08:29] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-29 22:08:29,684 - INFO - 127.0.0.1 - - [29/Jan/2025 22:08:29] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-29 22:08:30,211 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 22:08:31,396 - WARNING -  * Debugger is active!
+2025-01-29 22:08:31,404 - INFO -  * Debugger PIN: 426-637-435
