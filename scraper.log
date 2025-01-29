@@ -1,0 +1,523 @@
+2025-01-29 12:17:41,763 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 12:17:41,763 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 12:17:41,791 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 12:17:42,993 - WARNING -  * Debugger is active!
+2025-01-29 12:17:43,008 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 12:19:01,788 - INFO - 127.0.0.1 - - [29/Jan/2025 12:19:01] "GET / HTTP/1.1" 200 -
+2025-01-29 12:19:01,926 - INFO - 127.0.0.1 - - [29/Jan/2025 12:19:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-29 12:21:37,337 - ERROR - Failed to send email: (334, b'UGFzc3dvcmQ6')
+2025-01-29 12:21:37,337 - INFO - 127.0.0.1 - - [29/Jan/2025 12:21:37] "POST / HTTP/1.1" 200 -
+2025-01-29 12:24:38,438 - ERROR - Failed to send email: (334, b'UGFzc3dvcmQ6')
+2025-01-29 12:24:38,438 - INFO - 127.0.0.1 - - [29/Jan/2025 12:24:38] "POST / HTTP/1.1" 200 -
+2025-01-29 12:25:16,169 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\os.py', reloading
+2025-01-29 12:25:17,303 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 12:25:19,211 - WARNING -  * Debugger is active!
+2025-01-29 12:25:19,217 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 12:34:20,105 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 12:34:20,105 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 12:34:20,317 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 12:34:20,332 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 12:34:20,619 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 12:34:22,553 - WARNING -  * Debugger is active!
+2025-01-29 12:34:22,568 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 12:35:32,320 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 12:35:32,320 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 12:35:32,320 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 12:35:33,433 - WARNING -  * Debugger is active!
+2025-01-29 12:35:33,446 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 12:35:40,332 - INFO - 127.0.0.1 - - [29/Jan/2025 12:35:40] "GET / HTTP/1.1" 200 -
+2025-01-29 12:35:40,442 - INFO - 127.0.0.1 - - [29/Jan/2025 12:35:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-29 12:35:53,869 - ERROR - Failed to send email: (334, b'UGFzc3dvcmQ6')
+2025-01-29 12:35:53,869 - INFO - 127.0.0.1 - - [29/Jan/2025 12:35:53] "POST / HTTP/1.1" 200 -
+2025-01-29 12:51:57,461 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-01-29 12:51:57,461 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-01-29 12:51:57,476 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-01-29 12:51:57,476 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-01-29 12:51:57,780 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 12:51:59,794 - WARNING -  * Debugger is active!
+2025-01-29 12:51:59,800 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 12:52:00,285 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-01-29 12:52:00,319 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-01-29 12:52:00,324 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-01-29 12:52:00,328 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-01-29 12:52:00,959 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 19:58:25,020 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 19:58:25,020 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 19:58:25,032 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 19:58:26,049 - WARNING -  * Debugger is active!
+2025-01-29 19:58:26,058 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 20:01:01,411 - INFO - 127.0.0.1 - - [29/Jan/2025 20:01:01] "GET / HTTP/1.1" 200 -
+2025-01-29 20:01:01,542 - INFO - 127.0.0.1 - - [29/Jan/2025 20:01:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-29 20:01:38,646 - ERROR - Failed to send email: (334, b'UGFzc3dvcmQ6')
+2025-01-29 20:01:38,648 - INFO - 127.0.0.1 - - [29/Jan/2025 20:01:38] "POST / HTTP/1.1" 200 -
+2025-01-29 20:10:05,545 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 20:10:05,555 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 20:10:05,700 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 20:10:07,577 - WARNING -  * Debugger is active!
+2025-01-29 20:10:07,584 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 20:10:35,013 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 20:10:35,013 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 20:10:35,225 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 20:10:35,231 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 20:10:35,762 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 20:12:26,636 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 20:12:26,636 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 20:12:26,650 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 20:12:27,596 - WARNING -  * Debugger is active!
+2025-01-29 20:12:27,601 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 20:12:36,474 - INFO - 127.0.0.1 - - [29/Jan/2025 20:12:36] "GET / HTTP/1.1" 200 -
+2025-01-29 20:12:36,590 - INFO - 127.0.0.1 - - [29/Jan/2025 20:12:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-29 20:12:44,250 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-29 20:12:44,264 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-29 20:12:44,276 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-29 20:12:44,276 - INFO - 127.0.0.1 - - [29/Jan/2025 20:12:44] "POST / HTTP/1.1" 200 -
+2025-01-29 20:12:52,814 - INFO - 127.0.0.1 - - [29/Jan/2025 20:12:52] "GET /download/List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv HTTP/1.1" 200 -
+2025-01-29 20:17:21,386 - INFO - 127.0.0.1 - - [29/Jan/2025 20:17:21] "GET /download/List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv HTTP/1.1" 200 -
+2025-01-29 20:21:46,765 - INFO - Table 1 (Table_without_thead_tag) saved to tables-without-thead_Table_without_thead_tag.csv
+2025-01-29 20:21:46,767 - INFO - 127.0.0.1 - - [29/Jan/2025 20:21:46] "POST / HTTP/1.1" 200 -
+2025-01-29 20:23:58,956 - ERROR - Scraping failed: No tables found on https://www.kaggle.com/datasets/anandshaw2001/imdb-top-250-tv-shows?resource=download
+2025-01-29 20:23:58,958 - INFO - 127.0.0.1 - - [29/Jan/2025 20:23:58] "POST / HTTP/1.1" 200 -
+2025-01-29 20:32:56,135 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\os.py', reloading
+2025-01-29 20:32:56,421 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 20:32:58,189 - WARNING -  * Debugger is active!
+2025-01-29 20:32:58,195 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 20:34:30,145 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 20:34:30,145 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 20:34:30,153 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 20:34:31,088 - WARNING -  * Debugger is active!
+2025-01-29 20:34:31,095 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 20:34:34,515 - INFO - 127.0.0.1 - - [29/Jan/2025 20:34:34] "GET / HTTP/1.1" 200 -
+2025-01-29 20:34:34,614 - INFO - 127.0.0.1 - - [29/Jan/2025 20:34:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-29 20:34:42,738 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-29 20:34:42,756 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-29 20:34:42,765 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-29 20:34:42,768 - INFO - 127.0.0.1 - - [29/Jan/2025 20:34:42] "POST / HTTP/1.1" 200 -
+2025-01-29 20:36:54,493 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 20:36:54,493 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 20:36:54,501 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 20:36:55,601 - WARNING -  * Debugger is active!
+2025-01-29 20:36:55,604 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 20:36:59,061 - INFO - 127.0.0.1 - - [29/Jan/2025 20:36:59] "GET / HTTP/1.1" 200 -
+2025-01-29 20:37:06,531 - INFO - Table 1 (Table_without_thead_tag) saved to tables-without-thead_Table_without_thead_tag.csv
+2025-01-29 20:37:06,535 - INFO - 127.0.0.1 - - [29/Jan/2025 20:37:06] "POST / HTTP/1.1" 200 -
+2025-01-29 20:39:06,512 - ERROR - Scraping failed: No tables found on https://www.aupp.edu.kh/school-of-digital-technologies/bachelor-of-science-in-cybersecurity/
+2025-01-29 20:39:06,512 - INFO - 127.0.0.1 - - [29/Jan/2025 20:39:06] "POST / HTTP/1.1" 200 -
+2025-01-29 20:40:48,326 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-29 20:40:48,341 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-29 20:40:48,347 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-29 20:40:48,352 - INFO - 127.0.0.1 - - [29/Jan/2025 20:40:48] "POST / HTTP/1.1" 200 -
+2025-01-29 20:43:09,604 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\enc.py', reloading
+2025-01-29 20:43:10,564 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 20:43:11,864 - WARNING -  * Debugger is active!
+2025-01-29 20:43:11,872 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 20:44:58,523 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 20:44:58,524 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 20:44:58,532 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 20:44:59,584 - WARNING -  * Debugger is active!
+2025-01-29 20:44:59,589 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 20:45:10,773 - INFO - 127.0.0.1 - - [29/Jan/2025 20:45:10] "GET / HTTP/1.1" 200 -
+2025-01-29 20:45:20,429 - INFO - Table 1 (Table_without_thead_tag) saved to tables-without-thead_Table_without_thead_tag.csv
+2025-01-29 20:45:20,435 - INFO - 127.0.0.1 - - [29/Jan/2025 20:45:20] "POST / HTTP/1.1" 200 -
+2025-01-29 20:55:16,919 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\enc.py', reloading
+2025-01-29 20:55:16,921 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\enc.py', reloading
+2025-01-29 20:55:17,167 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 20:55:18,913 - WARNING -  * Debugger is active!
+2025-01-29 20:55:18,919 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 20:55:22,014 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\enc.py', reloading
+2025-01-29 20:55:22,016 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\enc.py', reloading
+2025-01-29 20:55:23,055 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 20:55:24,066 - WARNING -  * Debugger is active!
+2025-01-29 20:55:24,071 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 20:59:48,939 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 20:59:48,939 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 20:59:48,949 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 20:59:50,186 - WARNING -  * Debugger is active!
+2025-01-29 20:59:50,194 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 20:59:54,970 - INFO - 127.0.0.1 - - [29/Jan/2025 20:59:54] "GET / HTTP/1.1" 200 -
+2025-01-29 21:00:47,704 - INFO - Table 1 (Table_without_thead_tag) saved to tables-without-thead_Table_without_thead_tag.csv
+2025-01-29 21:00:47,708 - INFO - 127.0.0.1 - - [29/Jan/2025 21:00:47] "POST / HTTP/1.1" 200 -
+2025-01-29 21:00:56,556 - INFO - 127.0.0.1 - - [29/Jan/2025 21:00:56] "GET /download/tables-without-thead_Table_without_thead_tag.csv HTTP/1.1" 200 -
+2025-01-29 21:01:44,376 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-01-29 21:01:44,380 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\app.py', reloading
+2025-01-29 21:01:44,602 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:01:45,745 - WARNING -  * Debugger is active!
+2025-01-29 21:01:45,752 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:01:58,667 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\dotenv\\__init__.py', reloading
+2025-01-29 21:01:58,668 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\dotenv\\main.py', reloading
+2025-01-29 21:01:58,920 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:01:59,976 - WARNING -  * Debugger is active!
+2025-01-29 21:01:59,981 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:07:59,067 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\email\\mime\\text.py', reloading
+2025-01-29 21:07:59,917 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:08:01,626 - WARNING -  * Debugger is active!
+2025-01-29 21:08:01,632 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:08:05,664 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\smtplib.py', reloading
+2025-01-29 21:08:06,766 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:08:07,727 - WARNING -  * Debugger is active!
+2025-01-29 21:08:07,733 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:08:43,391 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:08:43,392 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:08:43,561 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:08:43,561 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:08:43,941 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:08:45,019 - WARNING -  * Debugger is active!
+2025-01-29 21:08:45,026 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:09:04,503 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:09:04,504 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:09:04,514 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:09:05,566 - WARNING -  * Debugger is active!
+2025-01-29 21:09:05,574 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:09:13,694 - INFO - 127.0.0.1 - - [29/Jan/2025 21:09:13] "GET / HTTP/1.1" 200 -
+2025-01-29 21:09:21,323 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-29 21:09:21,338 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-29 21:09:21,348 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-29 21:09:21,351 - INFO - 127.0.0.1 - - [29/Jan/2025 21:09:21] "POST / HTTP/1.1" 200 -
+2025-01-29 21:10:34,010 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:10:34,011 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:10:34,901 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:10:36,042 - WARNING -  * Debugger is active!
+2025-01-29 21:10:36,047 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:13:11,321 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-01-29 21:13:11,330 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-01-29 21:13:11,349 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-01-29 21:13:11,351 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-01-29 21:13:11,363 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-01-29 21:13:11,376 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-01-29 21:13:11,383 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-01-29 21:13:11,385 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-01-29 21:13:11,385 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-01-29 21:13:11,507 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:13:13,150 - WARNING -  * Debugger is active!
+2025-01-29 21:13:13,157 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:15:31,817 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-01-29 21:15:31,825 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-01-29 21:15:31,829 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-01-29 21:15:31,877 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-01-29 21:15:31,886 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-01-29 21:15:31,914 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-01-29 21:15:32,066 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Scripts\\conda-script.py', reloading
+2025-01-29 21:15:32,168 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2025-01-29 21:15:32,195 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+2025-01-29 21:15:32,765 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:15:35,038 - WARNING -  * Debugger is active!
+2025-01-29 21:15:35,048 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:16:30,724 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:16:30,724 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:16:31,281 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:16:32,993 - WARNING -  * Debugger is active!
+2025-01-29 21:16:33,001 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:16:39,955 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:16:39,956 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:16:39,956 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:16:40,150 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:16:41,262 - WARNING -  * Debugger is active!
+2025-01-29 21:16:41,268 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:16:47,663 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:16:47,664 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:16:48,409 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:16:49,516 - WARNING -  * Debugger is active!
+2025-01-29 21:16:49,524 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:18:03,753 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:18:03,754 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:18:03,998 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:18:03,999 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:18:04,797 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:18:05,810 - WARNING -  * Debugger is active!
+2025-01-29 21:18:05,816 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:18:25,307 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:18:25,308 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:18:25,316 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:18:27,062 - WARNING -  * Debugger is active!
+2025-01-29 21:18:27,068 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:18:53,382 - INFO - 127.0.0.1 - - [29/Jan/2025 21:18:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:18:53,526 - INFO - 127.0.0.1 - - [29/Jan/2025 21:18:53] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-29 21:18:53,533 - INFO - 127.0.0.1 - - [29/Jan/2025 21:18:53] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-29 21:18:53,560 - INFO - 127.0.0.1 - - [29/Jan/2025 21:18:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-29 21:19:25,856 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:19:25,857 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:19:25,865 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:19:26,933 - WARNING -  * Debugger is active!
+2025-01-29 21:19:26,938 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:20:03,654 - INFO - 127.0.0.1 - - [29/Jan/2025 21:20:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:20:03,777 - INFO - 127.0.0.1 - - [29/Jan/2025 21:20:03] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:20:03,779 - INFO - 127.0.0.1 - - [29/Jan/2025 21:20:03] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:20:03,816 - INFO - 127.0.0.1 - - [29/Jan/2025 21:20:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:20:35,941 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:20:35,942 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:20:35,951 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:20:37,049 - WARNING -  * Debugger is active!
+2025-01-29 21:20:37,055 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:20:39,449 - INFO - 127.0.0.1 - - [29/Jan/2025 21:20:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:20:39,559 - INFO - 127.0.0.1 - - [29/Jan/2025 21:20:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:20:39,560 - INFO - 127.0.0.1 - - [29/Jan/2025 21:20:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:20:39,578 - INFO - 127.0.0.1 - - [29/Jan/2025 21:20:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:21:34,847 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:21:34,849 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:21:34,859 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:21:35,834 - WARNING -  * Debugger is active!
+2025-01-29 21:21:35,841 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:21:54,444 - INFO - 127.0.0.1 - - [29/Jan/2025 21:21:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:21:54,610 - INFO - 127.0.0.1 - - [29/Jan/2025 21:21:54] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-29 21:21:54,611 - INFO - 127.0.0.1 - - [29/Jan/2025 21:21:54] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-29 21:21:54,666 - INFO - 127.0.0.1 - - [29/Jan/2025 21:21:54] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-29 21:21:55,698 - INFO - 127.0.0.1 - - [29/Jan/2025 21:21:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:24:08,183 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:24:08,183 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:24:08,192 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:24:09,304 - WARNING -  * Debugger is active!
+2025-01-29 21:24:09,317 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:24:10,960 - INFO - 127.0.0.1 - - [29/Jan/2025 21:24:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:24:11,065 - INFO - 127.0.0.1 - - [29/Jan/2025 21:24:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:24:11,066 - INFO - 127.0.0.1 - - [29/Jan/2025 21:24:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:24:11,093 - INFO - 127.0.0.1 - - [29/Jan/2025 21:24:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:24:11,299 - INFO - 127.0.0.1 - - [29/Jan/2025 21:24:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:10,111 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:25:10,112 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:25:10,385 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:25:10,387 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:25:10,595 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:25:12,273 - WARNING -  * Debugger is active!
+2025-01-29 21:25:12,279 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:25:17,484 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:25:17,484 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:25:17,493 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:25:18,561 - WARNING -  * Debugger is active!
+2025-01-29 21:25:18,567 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:25:22,352 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:22,451 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:22] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:22,452 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:22] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:22,472 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:22,649 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:23,952 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:23,995 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:23] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:23,999 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:23] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:24,010 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:24,230 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:25,194 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:25,242 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:25] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:25,245 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:25] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:25,266 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:25,465 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:26,178 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:26,232 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:26,236 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:26,256 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:26,449 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:26,846 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:26,897 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:26,898 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:26,916 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:27,091 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:27,294 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:27,342 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:27,345 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:27,369 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:27,543 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:27,642 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:27,750 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:27,752 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:27,780 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:27,955 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:27,990 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:28,045 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:28,046 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:28,070 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:28,371 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:28,465 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:28,466 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:28,487 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:28,650 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:29,079 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:29,192 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:29,193 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:29] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:29,209 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:29,374 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:29,675 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:29,728 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:29,730 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:29] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:29,747 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:29,914 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:30,362 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:30,467 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:30,470 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:30,487 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:30,654 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:31,482 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:31,537 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:31] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:31,538 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:31] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:31,560 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:31,731 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:32,246 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:32,295 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:32,297 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:32,314 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:32,494 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:32,554 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:32,624 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:32,626 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:32,648 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:32,827 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:32,901 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:33,026 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:33,027 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:33,055 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:33,233 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:33,282 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:33,339 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:33,341 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:33,363 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:33,520 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:33,738 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:33,810 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:33,811 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:33,834 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:34,006 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:34,049 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-29 21:25:34,103 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:34] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-29 21:25:34,109 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:34] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-29 21:25:34,131 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:25:34,292 - INFO - 127.0.0.1 - - [29/Jan/2025 21:25:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-29 21:26:00,909 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:26:00,909 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:26:00,919 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:26:01,965 - WARNING -  * Debugger is active!
+2025-01-29 21:26:01,971 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:26:08,096 - INFO - 127.0.0.1 - - [29/Jan/2025 21:26:08] "GET / HTTP/1.1" 200 -
+2025-01-29 21:26:36,262 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\genericpath.py', reloading
+2025-01-29 21:26:37,177 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:26:38,323 - WARNING -  * Debugger is active!
+2025-01-29 21:26:38,329 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:26:43,059 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:26:43,060 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:26:43,465 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:26:44,548 - WARNING -  * Debugger is active!
+2025-01-29 21:26:44,554 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:27:15,473 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:27:15,473 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:27:15,474 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:27:15,748 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:27:16,776 - WARNING -  * Debugger is active!
+2025-01-29 21:27:16,782 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:27:51,164 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:27:51,165 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:27:52,014 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:27:53,011 - WARNING -  * Debugger is active!
+2025-01-29 21:27:53,017 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:27:56,215 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\email\\encoders.py', reloading
+2025-01-29 21:27:57,152 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:27:58,115 - WARNING -  * Debugger is active!
+2025-01-29 21:27:58,122 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:28:14,073 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:28:14,074 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:28:14,081 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:28:15,091 - WARNING -  * Debugger is active!
+2025-01-29 21:28:15,097 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:28:21,942 - INFO - 127.0.0.1 - - [29/Jan/2025 21:28:21] "GET / HTTP/1.1" 200 -
+2025-01-29 21:28:29,982 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-29 21:28:29,997 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-29 21:28:30,007 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-29 21:28:33,189 - INFO - 127.0.0.1 - - [29/Jan/2025 21:28:33] "POST / HTTP/1.1" 200 -
+2025-01-29 21:36:48,167 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:36:48,168 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:36:48,427 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:36:49,457 - WARNING -  * Debugger is active!
+2025-01-29 21:36:49,465 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:37:39,527 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:37:39,529 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:37:39,537 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:37:40,634 - WARNING -  * Debugger is active!
+2025-01-29 21:37:40,641 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:37:41,611 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:37:41,611 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:37:41,613 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:37:41,783 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:37:41,830 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:37:42,909 - WARNING -  * Debugger is active!
+2025-01-29 21:37:42,916 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:37:42,916 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:37:51,481 - INFO - 127.0.0.1 - - [29/Jan/2025 21:37:51] "GET / HTTP/1.1" 200 -
+2025-01-29 21:38:00,297 - INFO - Table 1 (Table_without_thead_tag) saved to tables-without-thead_Table_without_thead_tag.csv
+2025-01-29 21:38:03,414 - INFO - 127.0.0.1 - - [29/Jan/2025 21:38:03] "POST / HTTP/1.1" 200 -
+2025-01-29 21:41:43,052 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:41:43,052 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:41:43,053 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:41:43,053 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:41:43,700 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:41:43,701 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:41:45,634 - WARNING -  * Debugger is active!
+2025-01-29 21:41:45,637 - WARNING -  * Debugger is active!
+2025-01-29 21:41:45,644 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:41:45,647 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:42:55,083 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:42:55,083 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:42:55,084 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:42:55,084 - INFO -  * Detected change in 'D:\\WebScrapinf_Automation\\scraper.py', reloading
+2025-01-29 21:42:55,939 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:42:55,950 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:42:57,011 - WARNING -  * Debugger is active!
+2025-01-29 21:42:57,018 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:42:57,018 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:43:17,136 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:43:17,136 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:43:17,147 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:43:18,328 - WARNING -  * Debugger is active!
+2025-01-29 21:43:18,335 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:43:23,192 - INFO - 127.0.0.1 - - [29/Jan/2025 21:43:23] "GET / HTTP/1.1" 200 -
+2025-01-29 21:43:31,513 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-29 21:43:31,528 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-29 21:43:31,536 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-29 21:43:34,357 - INFO - 127.0.0.1 - - [29/Jan/2025 21:43:34] "POST / HTTP/1.1" 200 -
+2025-01-29 21:44:41,522 - ERROR - Scraping failed: No tables found on https://www.aupp.edu.kh/
+2025-01-29 21:44:41,523 - INFO - 127.0.0.1 - - [29/Jan/2025 21:44:41] "POST / HTTP/1.1" 200 -
+2025-01-29 21:46:18,436 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:46:18,436 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:46:18,437 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:46:18,656 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:46:18,657 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-29 21:46:18,841 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:46:19,913 - WARNING -  * Debugger is active!
+2025-01-29 21:46:19,920 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:46:35,831 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 21:46:35,831 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 21:46:35,840 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:46:36,851 - WARNING -  * Debugger is active!
+2025-01-29 21:46:36,856 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:46:42,596 - INFO - 127.0.0.1 - - [29/Jan/2025 21:46:42] "GET / HTTP/1.1" 200 -
+2025-01-29 21:46:50,302 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-29 21:46:50,316 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-29 21:46:50,325 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-29 21:46:53,254 - INFO - 127.0.0.1 - - [29/Jan/2025 21:46:53] "POST / HTTP/1.1" 200 -
+2025-01-29 21:47:04,235 - ERROR - Scraping failed: No tables found on https://www.aupp.edu.kh/
+2025-01-29 21:47:07,507 - INFO - 127.0.0.1 - - [29/Jan/2025 21:47:07] "POST / HTTP/1.1" 200 -
+2025-01-29 21:48:24,467 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-29 21:48:24,484 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-29 21:48:24,496 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-29 21:48:27,571 - INFO - 127.0.0.1 - - [29/Jan/2025 21:48:27] "POST / HTTP/1.1" 200 -
+2025-01-29 21:54:30,754 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Scripts\\pip-script.py', reloading
+2025-01-29 21:54:30,992 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:54:32,825 - WARNING -  * Debugger is active!
+2025-01-29 21:54:32,832 - INFO -  * Debugger PIN: 426-637-435
+2025-01-29 21:54:55,605 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\subprocess.py', reloading
+2025-01-29 21:54:56,041 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-29 21:54:57,087 - WARNING -  * Debugger is active!
+2025-01-29 21:54:57,095 - INFO -  * Debugger PIN: 426-637-435

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .form-container {
+            margin: 20px 0;
+        }
+        .success {
+            color: green;
+            margin: 10px 0;
+        }
+        .error {
+            color: red;
+            margin: 10px 0;
+        }
+        .download-btn {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .download-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Scrape Wikipedia Table Data</h1>
+
+    <div class="form-container">
+        <form method="POST">
+            <label for="url">Enter URL: </label>
+            <input type="text" name="url" id="url" required>
+            <button type="submit">Scrape Data</button>
+        </form>
+    </div>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+    
+    {% if success %}
+        <p class="success">{{ success }}</p>
+    {% endif %}
+
+    {% if tables %}
+        <h2>Scraped Tables:</h2>
+        {% for table in tables %}
+            <h3>{{ table.name }}</h3> <!-- Display table name -->
+            <table>
+                {{ table.data | safe }}  <!-- Render the table -->
+            </table>
+            <a href="{{ url_for('download_file', filename=table.filename) }}" class="download-btn">
+                Download CSV
+            </a>
+            <hr> <!-- Add a separator between tables -->
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
