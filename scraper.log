@@ -645,3 +645,105 @@
 2025-01-29 22:40:06,302 - INFO - 192.168.1.100 - - [29/Jan/2025 22:40:06] "POST / HTTP/1.1" 200 -
 2025-01-29 22:42:53,543 - ERROR - Scraping failed: No tables found on https://mydramalist.com/search?q=Agents+of+Mystery
 2025-01-29 22:42:57,000 - INFO - 192.168.1.109 - - [29/Jan/2025 22:42:57] "POST / HTTP/1.1" 200 -
+2025-01-30 09:28:46,427 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.1.109:5000
+2025-01-30 09:28:46,427 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-30 09:28:46,445 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-30 09:28:47,567 - WARNING -  * Debugger is active!
+2025-01-30 09:28:47,586 - INFO -  * Debugger PIN: 426-637-435
+2025-01-30 09:29:32,018 - INFO - 172.23.1.108 - - [30/Jan/2025 09:29:32] "GET / HTTP/1.1" 200 -
+2025-01-30 09:29:32,272 - INFO - 172.23.1.108 - - [30/Jan/2025 09:29:32] "GET / HTTP/1.1" 200 -
+2025-01-30 09:29:32,414 - INFO - 172.23.1.108 - - [30/Jan/2025 09:29:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-30 09:30:19,616 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-30 09:30:19,624 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-30 09:30:19,640 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-30 09:30:21,551 - INFO - Table 1 (List_of_the_largest_public__publicly_traded_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_the_largest_public__publicly_traded_companies.csv
+2025-01-30 09:30:21,566 - INFO - Table 2 (List_of_largest_private_companies) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_largest_private_companies.csv
+2025-01-30 09:30:21,585 - INFO - Table 3 (List_of_companies_by_profit) saved to List_of_largest_companies_in_the_United_States_by_revenue_List_of_companies_by_profit.csv
+2025-01-30 09:30:24,377 - INFO - 172.23.1.108 - - [30/Jan/2025 09:30:24] "POST / HTTP/1.1" 200 -
+2025-01-30 09:30:25,100 - INFO - 172.23.1.108 - - [30/Jan/2025 09:30:25] "POST / HTTP/1.1" 200 -
+2025-01-30 09:30:25,188 - INFO - 172.23.1.108 - - [30/Jan/2025 09:30:25] "GET / HTTP/1.1" 200 -
+2025-01-30 09:32:40,873 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.1.109:5000
+2025-01-30 09:32:40,873 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-30 09:32:40,883 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-30 09:32:42,149 - WARNING -  * Debugger is active!
+2025-01-30 09:32:42,161 - INFO -  * Debugger PIN: 426-637-435
+2025-01-30 09:32:44,589 - INFO - 172.23.1.108 - - [30/Jan/2025 09:32:44] "GET / HTTP/1.1" 200 -
+2025-01-30 09:32:44,931 - INFO - 172.23.1.108 - - [30/Jan/2025 09:32:44] "GET / HTTP/1.1" 200 -
+2025-01-30 09:32:52,302 - INFO - Table 1 (Keep_it_simple) saved to scraped_data_Keep_it_simple.csv
+2025-01-30 09:32:52,325 - INFO - Table 2 (Pricing_tables) saved to scraped_data_Pricing_tables.csv
+2025-01-30 09:32:52,412 - INFO - Table 3 (Filtering,_sorting,_and_pagination) saved to scraped_data_Filtering,_sorting,_and_pagination.csv
+2025-01-30 09:32:52,443 - INFO - Table 4 (Comparison_table) saved to scraped_data_Comparison_table.csv
+2025-01-30 09:32:52,468 - INFO - Table 5 (Multimedia_integration) saved to scraped_data_Multimedia_integration.csv
+2025-01-30 09:32:56,550 - INFO - 172.23.1.108 - - [30/Jan/2025 09:32:56] "POST / HTTP/1.1" 200 -
+2025-01-30 09:32:56,630 - INFO - 172.23.1.108 - - [30/Jan/2025 09:32:56] "GET / HTTP/1.1" 200 -
+2025-01-30 10:32:21,881 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\app.py', reloading
+2025-01-30 10:32:22,563 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-30 10:32:24,570 - WARNING -  * Debugger is active!
+2025-01-30 10:32:24,570 - INFO -  * Debugger PIN: 426-637-435
+2025-01-30 12:27:02,686 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.1.109:5000
+2025-01-30 12:27:02,686 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-30 12:27:02,712 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-30 12:27:03,684 - WARNING -  * Debugger is active!
+2025-01-30 12:27:03,695 - INFO -  * Debugger PIN: 726-873-783
+2025-01-30 12:28:21,619 - INFO - 172.23.1.109 - - [30/Jan/2025 12:28:21] "GET / HTTP/1.1" 200 -
+2025-01-30 12:28:21,761 - INFO - 172.23.1.109 - - [30/Jan/2025 12:28:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-30 12:28:49,188 - INFO - 172.23.2.191 - - [30/Jan/2025 12:28:49] "GET / HTTP/1.1" 200 -
+2025-01-30 12:28:49,492 - INFO - 172.23.2.191 - - [30/Jan/2025 12:28:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-30 12:29:51,311 - INFO - Table 1 (Keep_it_simple) saved to scraped_data_Keep_it_simple.csv
+2025-01-30 12:29:51,344 - INFO - Table 2 (Pricing_tables) saved to scraped_data_Pricing_tables.csv
+2025-01-30 12:29:51,422 - INFO - Table 3 (Filtering,_sorting,_and_pagination) saved to scraped_data_Filtering,_sorting,_and_pagination.csv
+2025-01-30 12:29:51,469 - INFO - Table 4 (Comparison_table) saved to scraped_data_Comparison_table.csv
+2025-01-30 12:29:51,500 - INFO - Table 5 (Multimedia_integration) saved to scraped_data_Multimedia_integration.csv
+2025-01-30 12:29:55,537 - INFO - 172.23.2.191 - - [30/Jan/2025 12:29:55] "POST / HTTP/1.1" 200 -
+2025-01-30 12:30:38,066 - INFO - 172.23.2.191 - - [30/Jan/2025 12:30:38] "GET /download/scraped_data_Pricing_tables.csv HTTP/1.1" 200 -
+2025-01-30 12:31:16,948 - INFO - 172.23.2.191 - - [30/Jan/2025 12:31:16] "[36mGET /download/scraped_data_Pricing_tables.csv HTTP/1.1[0m" 304 -
+2025-01-30 12:31:42,764 - INFO - 172.23.2.191 - - [30/Jan/2025 12:31:42] "[36mGET /download/scraped_data_Pricing_tables.csv HTTP/1.1[0m" 304 -
+2025-01-30 12:32:28,403 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\smtplib.py', reloading
+2025-01-30 12:32:28,453 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\email\\mime\\text.py', reloading
+2025-01-30 12:32:28,954 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-30 12:32:36,335 - WARNING -  * Debugger is active!
+2025-01-30 12:32:36,340 - INFO -  * Debugger PIN: 726-873-783
+2025-01-30 12:32:53,087 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+2025-01-30 12:32:53,102 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2025-01-30 12:32:53,118 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2025-01-30 12:32:53,134 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\numpy\\_utils\\__init__.py', reloading
+2025-01-30 12:32:53,158 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\numpy\\_typing\\_nbit.py', reloading
+2025-01-30 12:32:53,236 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\re\\__init__.py', reloading
+2025-01-30 12:32:53,250 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\urllib\\parse.py', reloading
+2025-01-30 12:32:53,270 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\email\\mime\\multipart.py', reloading
+2025-01-30 12:32:53,291 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\email\\mime\\base.py', reloading
+2025-01-30 12:32:53,550 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-30 12:32:54,750 - WARNING -  * Debugger is active!
+2025-01-30 12:32:54,761 - INFO -  * Debugger PIN: 726-873-783
+2025-01-30 12:33:14,947 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\enc.py', reloading
+2025-01-30 12:33:14,947 - INFO -  * Detected change in 'd:\\WebScrapinf_Automation\\testcode.py', reloading
+2025-01-30 12:33:15,973 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-30 12:33:17,226 - WARNING -  * Debugger is active!
+2025-01-30 12:33:17,230 - INFO -  * Debugger PIN: 726-873-783
+2025-01-30 12:37:15,389 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2025-01-30 12:37:15,449 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\jinja2\\exceptions.py', reloading
+2025-01-30 12:37:15,461 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\signals.py', reloading
+2025-01-30 12:37:15,485 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\ctx.py', reloading
+2025-01-30 12:37:15,500 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\jinja2\\defaults.py', reloading
+2025-01-30 12:37:15,531 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\jinja2\\ext.py', reloading
+2025-01-30 12:37:15,564 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\jinja2\\runtime.py', reloading
+2025-01-30 12:37:15,596 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\jinja2\\bccache.py', reloading
+2025-01-30 12:37:15,628 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\debughelpers.py', reloading
+2025-01-30 12:37:15,648 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\sansio\\blueprints.py', reloading
+2025-01-30 12:37:15,682 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\blinker\\__init__.py', reloading
+2025-01-30 12:37:15,706 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\blinker\\base.py', reloading
+2025-01-30 12:37:15,899 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\typing.py', reloading
+2025-01-30 12:37:15,965 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\sessions.py', reloading
+2025-01-30 12:37:16,014 - INFO -  * Detected change in 'C:\\ProgramData\\radioconda\\Lib\\site-packages\\flask\\config.py', reloading
+2025-01-30 12:37:16,161 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-30 12:37:18,060 - WARNING -  * Debugger is active!
+2025-01-30 12:37:18,076 - INFO -  * Debugger PIN: 726-873-783

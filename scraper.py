@@ -11,18 +11,33 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
-import os
 
-# Configure output folder
+# Load environment variables
+load_dotenv()
+
+# Configure output and log directories
 OUTPUT_DIR = "output/"
 LOG_DIR = "logs/"
-load_dotenv()
+
+# Telegram Bot Config
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+
+# Ensure directories exist
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(LOG_DIR, exist_ok=True)
+
+logging.basicConfig(filename=os.path.join(LOG_DIR, "scraping_log.txt"), level=logging.INFO,
+                    format="%(asctime)s - %(levelname)s - %(message)s", encoding="utf-8")
+
 
 def clean_filename(name):
     """Remove invalid characters from filenames"""
     return re.sub(r'[\\/*?:"<>|]', '', name).replace(' ', '_')
 
+
 def scrape_data(url):
+    """Scrape table data from a given URL and save it as CSV"""
     parsed_url = urlparse(url)
     page_name = parsed_url.path.split('/')[-1] or "scraped_data"
     page = requests.get(url)
@@ -32,20 +47,18 @@ def scrape_data(url):
     if not tables:
         raise ValueError(f"No tables found on {url}")
 
-    all_tables_data = []  # Store table names, data, and filenames for rendering
+    all_tables_data = []
 
     for i, table in enumerate(tables):
         try:
             heading = table.find_previous(['h2', 'h3'])  # Find nearest heading
             table_name = clean_filename(heading.text.strip()) if heading else f"Table {i+1}"
 
-            # Handle headers
-            headers = []
-            header_row = table.find('tr')
-            if header_row:
-                headers = [header.text.strip() for header in header_row.find_all(['th', 'td'])]
-
+            # Extract headers
+            headers = [header.text.strip() for header in table.find('tr').find_all(['th', 'td'])] if table.find('tr') else []
             df = pd.DataFrame(columns=headers)
+
+            # Extract rows
             rows = table.find_all('tr')[1:]  # Skip header row
             for row in rows:
                 row_data = [cell.text.strip() for cell in row.find_all('td')]
@@ -72,14 +85,11 @@ def scrape_data(url):
             logging.error(f"Error processing table {i+1}: {str(e)}")
             raise
 
-    return all_tables_data  # Return list of tables with names and filenames
+    return all_tables_data
 
 
-def log_scrape():
-    log_file = os.path.join(LOG_DIR, "scraping_log.txt")
-    with open(log_file, "r") as f:
-        return f.read()  # Read the log data to send in email or display
 def send_email(subject, body, to_email, attachment=None):
+    """Send an email with an optional attachment"""
     from_email = os.getenv('GMAIL_USER')
     password = os.getenv('GMAIL_PASSWORD')
 
@@ -87,42 +97,64 @@ def send_email(subject, body, to_email, attachment=None):
     msg['From'] = from_email
     msg['To'] = to_email
     msg['Subject'] = subject
-
     msg.attach(MIMEText(body, 'plain'))
 
     if attachment:
         try:
-            part = MIMEBase('application', 'octet-stream')
-            part.set_payload(open(attachment, 'rb').read())
-            encoders.encode_base64(part)
-            part.add_header('Content-Disposition', f'attachment; filename={os.path.basename(attachment)}')
-            msg.attach(part)
+            with open(attachment, "rb") as f:
+                part = MIMEBase("application", "octet-stream")
+                part.set_payload(f.read())
+                encoders.encode_base64(part)
+                part.add_header("Content-Disposition", f"attachment; filename={os.path.basename(attachment)}")
+                msg.attach(part)
         except Exception as e:
-            print(f"Failed to attach file: {e}")
+            logging.error(f"Failed to attach file: {e}")
 
     try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(from_email, password)
-        text = msg.as_string()
-        server.sendmail(from_email, to_email, text)
-        server.quit()
-        print("Email Sent Successfully!")
+        with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.starttls()
+            server.login(from_email, password)
+            server.sendmail(from_email, to_email, msg.as_string())
+        logging.info("Email sent successfully!")
     except Exception as e:
-        print(f"Email Sending Failed: {e}")
+        logging.error(f"Email sending failed: {e}")
 
-# Call this function after scraping is done
+
+def send_telegram_message(message):
+    """Send a message to the admin via Telegram bot"""
+    if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
+        url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+        payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message}
+        try:
+            response = requests.post(url, json=payload)
+            response.raise_for_status()
+            logging.info("Telegram message sent successfully!")
+        except requests.exceptions.RequestException as e:
+            logging.error(f"Telegram notification failed: {e}")
+
+
 def notify_user(user_email, scrape_status, log_file=None, client_ip=None):
+    """Send notifications via Email & Telegram when a user scrapes data"""
+    subject = f"Web Scraping Status from {client_ip}"
+    body = f"Status: {scrape_status.upper()}\nIP: {client_ip}"
+
     if scrape_status == "success":
-        subject = f"A User Has Completed Web Scraping Successfully! (IP: {client_ip})"  # Include IP in subject
-        body = f"A user with IP address {client_ip} has successfully completed the web scraping process. The scraped data is available for download."
-        send_email(subject, body, user_email)  # No log file to send
+        body += "\nScraping completed successfully!"
     else:
-        subject = f"Error in User's Web Scraping Process! (IP: {client_ip})"  # Include IP in subject
-        body = f"An error occurred while a user with IP address {client_ip} was attempting to scrape data. Please check the attached log file for more information.\n\nUser Email: {user_email}"
-        if log_file:
-            send_email(subject, body, user_email, log_file)  # Send the log file if there's an error
-        else:
-            send_email(subject, body, user_email)  # Send email without the log file if not available
+        body += "\n⚠️ Scraping failed. Check the logs."
+
+    # ✅ Send Email
+    if log_file:
+        send_email(subject, body, user_email, log_file)
+    else:
+        send_email(subject, body, user_email)
+
+    # ✅ Send Telegram Alert
+    send_telegram_message(f"📢 Web Scraping Alert!\n\n{body}")
 
 
+def log_scrape():
+    """Retrieve the log file contents"""
+    log_file = os.path.join(LOG_DIR, "scraping_log.txt")
+    with open(log_file, "r") as f:
+        return f.read()
